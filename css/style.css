@@ -1,0 +1,854 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1219px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo img {
+  padding: 18px 35px;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 722px;
+}
+
+.nav-menu {
+  height: 90px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.nav-menu div {
+  border: 1px solid #c4c4c4;
+  font-family: Gilroy, sans-serif;
+}
+
+.nav-menu div:nth-child(n + 5) {
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-menu div:nth-child(3) {
+  padding: 34px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: content;
+      flex-basis: content;
+}
+
+.nav-menu div:nth-child(3) img {
+  padding-left: 15px;
+}
+
+.nav-menu div:nth-child(3) p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.nav-menu div:nth-child(4) {
+  width: 331px;
+  text-align: center;
+}
+
+.phone-number {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-top: 36px;
+  width: 185px;
+}
+
+.bw-version {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 15px 8px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 270px;
+  height: 40px;
+  background: #00868a;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bw-version p {
+  font-family: Gilroy, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.bw-version:hover {
+  background: #22b8bd;
+}
+
+.cosmetology-menu {
+  background: #4fbfa5;
+}
+
+.cosmetology-services {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.each-servise {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.each-servise a:visited {
+  color: #ffffff;
+}
+
+.appointment {
+  width: 175px;
+  height: 40px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.appointment:hover {
+  color: #ffffff;
+}
+
+.cosmetology-info {
+  margin-top: 133px;
+}
+
+.cosmetology-info p {
+  margin-top: 20px;
+  text-align: left;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  width: 419px;
+}
+
+.cosmetology-about {
+  overflow: hidden;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 25px 14px;
+  width: 163px;
+  height: 50px;
+  background: #00868a;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.slider {
+  margin-top: 23px;
+  padding-left: 371px;
+}
+
+.slider-prev {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 15px;
+  width: 60px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  background-color: Transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-right: none;
+}
+
+.slider-next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 15px;
+  width: 60px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  background-color: Transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 150%;
+  color: #ffffff;
+  text-align: left;
+}
+
+.h1-picture {
+  height: 100%;
+  overflow: hidden;
+}
+
+.h1-picture img {
+  width: 100%;
+}
+
+.cosmetology-about-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.cosmetology-about-footer button {
+  height: 80px;
+  width: 324px;
+  background: #00868a;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main {
+  background-color: #ffffff;
+  height: 1344px;
+  margin-top: 80px;
+}
+
+.innovations {
+  background: #00868a;
+  height: 580px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.innovations > button {
+  padding: 9px 15px 10px;
+  width: 125px;
+  height: 40px;
+  background: #4fbfa5;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+
+.innovations > img {
+  position: absolute;
+  bottom: 0;
+}
+
+.innovation-practice {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.innovations-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+  width: 170px;
+  margin-left: 40px;
+}
+
+.innovations-about button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: Transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.innovations-about p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 120px;
+}
+
+.pattents {
+  height: 485px;
+  margin-top: 35px;
+  background-image: url("../img/pattent.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 52%;
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(138, 138, 138, 0.25));
+          filter: drop-shadow(0px 0px 20px rgba(138, 138, 138, 0.25));
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.pattents > button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9px 15px 10px;
+  width: 186px;
+  height: 40px;
+  background: #4fbfa5;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.modern-centers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modern-centers-number {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 150%;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.modern-centers-info {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  padding-left: 20px;
+  opacity: 0.3;
+}
+
+.unique-pattents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 55px;
+}
+
+.unique-pattents-number {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 150%;
+  color: #00868a;
+}
+
+.unique-pattents-info {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 150%;
+  color: #000000;
+  padding-left: 31px;
+}
+
+.block {
+  margin-top: 80px;
+}
+
+.news-list {
+  background: #4fbfa5;
+}
+
+.news-list > button {
+  margin-top: 35px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  padding: 9px 15px 10px;
+  width: 101px;
+  height: 40px;
+  background: #00868a;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.news {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  padding: 35px 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.news-active {
+  background: #00868a;
+}
+
+.news-description {
+  background-color: rgba(0, 134, 138, 0.1);
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: -16px;
+}
+
+.news-description h2 {
+  padding-top: 35px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.news-description ul {
+  padding-top: 25px;
+}
+
+.news-description ul li {
+  padding-bottom: 25px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.news-description ul li::before {
+  content: url("../img/list-style.svg");
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.offers {
+  background-color: rgba(0, 134, 138, 0.1);
+  max-width: none;
+  width: 100%;
+}
+
+.actuall-offers > p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+  color: #00868a;
+  padding-top: 80px;
+}
+
+.actuall-offers .row {
+  margin-top: 60px;
+}
+
+.offers-item {
+  height: 344px;
+  background-color: #00868a;
+}
+
+.offers-item .header {
+  height: 230px;
+}
+
+.offers-item .header > button {
+  margin-top: 31px;
+  margin-left: 30px;
+  padding: 9px 15px 10px;
+  width: 148px;
+  height: 40px;
+  background: #4fbfa5;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 114px;
+}
+
+.offer button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: Transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.offer p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.services {
+  margin-top: 100px;
+}
+
+.service h3 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 150%;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.service p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  padding-bottom: 15px;
+}
+
+.service p:nth-last-child(1) {
+  padding-bottom: 0;
+}
+
+.contacts h4 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.contacts p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.contacts button {
+  padding: 15px 25px 14px;
+  width: 164px;
+  height: 45px;
+  background: #00868a;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.footer div {
+  border: 1px solid #c4c4c4;
+  font-family: Gilroy, sans-serif;
+}
+
+.footer div:nth-child(n + 3) {
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  width: 331px;
+}
+
+.policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.policy p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.policy p:nth-child(1) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  padding: 20px 0px 16px 25px;
+  width: 60%;
+}
+
+.policy p:nth-child(2) {
+  text-align: center;
+  width: 40%;
+}
+
+button {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #22b8bd;
+}
